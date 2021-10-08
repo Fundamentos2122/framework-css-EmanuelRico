@@ -2,14 +2,97 @@ h1, h2, h3, h4, h5, h6{
     margin-top: 0;
 }
 
-.h1{
-    --font-size: 3em;
-    display: block;
-    font-size: 2em;
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6{
+    margin-bottom: 0.5em;
     font-weight: bold;
-    margin-bottom: calc(var(--font-size) * 0.09);
+    line-height: 1;
+}
+
+h1, .h1{
+    font-size: 2.5em;
+}
+
+h2, .h2{
+    font-size: 2em;
+}
+
+h3, .h3{
+    font-size: 1.75em;
+}
+
+h4, .h4{
+    font-size: 1.5em;
+}
+
+h5, .h5{
+    font-size: 1.25em;
+}
+
+h6, .h6{
+    font-size: 1em;
 }
 
 p{
     margin-top: 0;
+}
+
+.display-1{
+    font-size: 6em;
+    font-weight: 300;
+    line-height: 1em;
+}
+
+.display-2{
+    font-size: 5.5em;
+    font-weight: 300;
+    line-height: 1em;
+}
+
+.display-3{
+    font-size: 4.5em;
+    font-weight: 300;
+    line-height: 1em;
+}
+
+.display-4{
+    font-size: 3.5em;
+    font-weight: 300;
+    line-height: 1em;
+}
+
+p{
+    margin-top: 0;
+}
+
+.primary-text{
+    color: var(--primary-color);
+}
+
+.secondary-text{
+    color: var(--secondary-color);
+}
+
+.success-text{
+    color: var(--success-color);
+}
+
+.info-text{
+    color: var(--info-color);
+}
+
+.warning-text{
+    color: var(--warning-color);
+}
+
+.danger-text{
+    color: var(--danger-color);
+}
+
+.light-text{
+    color: var(--light-color);
+}
+
+.dark-text{
+    color: var(--dark-color);
 }
