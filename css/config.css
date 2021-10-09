@@ -17,4 +17,21 @@ html, body{
     --light-color: #f8f9fa;
     --dark-color: #343a40;
     --border-color: rgb(228, 228, 228);
+
+    --primary-color-darker: #0c4fb3;
+    --secondary-color-darker: #8f959b;
+    --success-color-darker: #115837;
+    --info-color-darker: #127d8d;
+    --warning-color-darker: #c7980b;
+    --danger-color-darker: #af2835;
+    --light-color-darker: #c9caca;
+    --dark-color-darker: #191c1f;
+    --border-color-darker: #dee2e6;
+
+    --primary-color-lighter: #5d97ec;
+    --secondary-color-lighter: #d8d8d8;
+    --success-color-lighter: #568f74;
+    --info-color-lighter: #70b3bd;
+    --warning-color-lighter: #ffe28a;
+    --danger-color-lighter: #df7e87;
 }

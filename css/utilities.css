@@ -97,3 +97,7 @@
 .light-border{
     border-color: var(--light-color);
 }
+
+.dark-border{
+    border-color: var(--dark-color);
+}

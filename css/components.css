@@ -1,0 +1,173 @@
+.btn{
+    display: inline-block;
+    text-align: center;
+    padding: 0.25em 0.75em;
+    font-size: 1em;
+    border: 1px solid var(--border-color);
+    border-radius: 0.25em;
+    text-decoration: none;
+    transition: color 0.2s ease, background-color 0.2s ease;
+}
+
+.btn:hover{
+    cursor: pointer;
+}
+
+.primary-btn{
+    color: #fff;
+    background-color: var(--primary-color);
+}
+
+.primary-btn:hover{
+    color: #fff;
+    background-color: var(--primary-color-darker);
+}
+
+.secondary-btn{
+    color: #fff;
+    background-color: var(--secondary-color);
+}
+
+.secondary-btn:hover{
+    color: #fff;
+    background-color: var(--secondary-color-darker);
+}
+
+.success-btn{
+    color: #fff;
+    background-color: var(--success-color);
+}
+
+.success-btn:hover{
+    color: #fff;
+    background-color: var(--success-color-darker);
+}
+
+.info-btn{
+    color: #fff;
+    background-color: var(--info-color);
+}
+
+.info-btn:hover{
+    color: #fff;
+    background-color: var(--info-color-darker);
+}
+
+.warning-btn{
+    color: #222;
+    background-color: var(--warning-color);
+}
+
+.warning-btn:hover{
+    color: #222;
+    background-color: var(--warning-color-darker);
+}
+
+.danger-btn{
+    color: #fff;
+    background-color: var(--danger-color);
+}
+
+.danger-btn:hover{
+    color: #fff;
+    background-color: var(--danger-color-darker);
+}
+
+.light-btn{
+    color: #222;
+    background-color: var(--light-color);
+}
+
+.light-btn:hover{
+    color: #222;
+    background-color: var(--light-color-darker);
+}
+
+.dark-btn{
+    color: #fff;
+    background-color: var(--dark-color);
+}
+
+.dark-btn:hover{
+    color: #fff;
+    background-color: var(--dark-color-darker);
+}
+
+.table{
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 1em;
+}
+
+.table th, td{
+    padding: 0.5em;
+    border-top: 1px solid var(--border-color);
+}
+
+.primary-table{
+    color: #fff;
+    background-color: var(--primary-color-lighter);
+}
+
+.primary-table th{
+    background-color: var(--primary-color-darker);
+}
+
+.secondary-table{
+    background-color: var(--secondary-color-lighter);
+}
+
+.secondary-table th{
+    background-color: var(--secondary-color-darker);
+}
+
+.success-table{
+    color: #fff;
+    background-color: var(--success-color-lighter);
+}
+
+.success-table th{
+    background-color: var(--success-color-darker);
+}
+
+.info-table{
+    background-color: var(--info-color-lighter);
+}
+
+.info-table th{
+    background-color: var(--info-color-darker);
+}
+
+.warning-table{
+    background-color: var(--warning-color-lighter);
+}
+
+.warning-table th{
+    background-color: var(--warning-color-darker);
+}
+
+.danger-table{
+    background-color: var(--danger-color-lighter);
+}
+
+.danger-table th{
+    background-color: var(--danger-color-darker);
+}
+
+.light-table{
+    background-color: var(--light-color);
+}
+
+.light-table th{
+    background-color: var(--light-color-darker);
+}
+
+.dark-table{
+    color: #fff;
+    background-color: var(--dark-color);
+}
+
+.dark-table th{
+    color: #fff;
+    background-color: var(--dark-color-darker);
+}
