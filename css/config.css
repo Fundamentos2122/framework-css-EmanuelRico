@@ -34,4 +34,6 @@ html, body{
     --info-color-lighter: #70b3bd;
     --warning-color-lighter: #ffe28a;
     --danger-color-lighter: #df7e87;
+
+    --container-padding: 1em;
 }
