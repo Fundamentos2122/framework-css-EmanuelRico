@@ -225,23 +225,34 @@
 
 .navbar{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     background-color: var(--primary-color);
+    padding: 1em;
 }
 
 .navbar-brand{
     display: inline-block;
-    padding: 1em;
     text-decoration: none;
     color: var(--light-color);
     font-weight: 600;
     font-size: 1.25em;
 }
 
+.navbar-toggle{
+    padding: 0.5em;
+    height: fit-content;
+}
+
+.navbar-collapse{
+    display: none;
+    flex-basis: 100%;
+}
+
 .navbar-nav{
-    display: flex;
+    display: block;
     margin: 0;
-    padding: 1em;
+    padding: 0;
 }
 
 .navbar-nav > .nav-item{
@@ -261,7 +272,6 @@
 }
 
 .dropdown-menu{
-    position: absolute;
     z-index: 1000;
     background-color: white;
     border: 1px solid var(--border-color);
@@ -284,4 +294,23 @@
 
 .show{
     display: block;
+}
+
+@media (min-width: 768px) {
+    .navbar-toggle{
+        display: none;
+    }
+
+    .navbar-nav{
+        display: flex;
+    }
+
+    .navbar-collapse{
+        display: block;
+        flex-basis: auto;
+    }
+
+    .dropdown-menu{
+        position: absolute;
+    }
 }
