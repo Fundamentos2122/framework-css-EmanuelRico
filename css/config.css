@@ -36,4 +36,6 @@ html, body{
     --danger-color-lighter: #df7e87;
 
     --container-padding: 1em;
+    --input-color: #838383;
+    --input-shadow: #67b7ec;
 }
