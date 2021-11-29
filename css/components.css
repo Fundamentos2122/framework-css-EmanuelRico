@@ -3,6 +3,7 @@
     text-align: center;
     padding: 0.25em 0.9em;
     font-size: 1em;
+    border: 1px solid var(--border-color);
     border-radius: 0.25em;
     text-decoration: none;
     transition: color 0.2s ease, background-color 0.2s ease;
@@ -294,6 +295,111 @@
 
 .show{
     display: block;
+}
+
+input{
+    display: inline-block;
+}
+
+.form-group{
+    margin-bottom: 1em;
+}
+
+.form-check{
+    display: block;
+    position: relative;
+    padding-left: 1.25em;
+}
+
+label{
+    margin-bottom: 0.5em;
+}
+
+textarea{
+    resize: none;
+}
+
+.col-form-label{
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    margin: 0;
+}
+
+.form-control{
+    padding: 0.5em 1em;
+    width: 100%;
+    border: 1px solid var(--border-color);
+    border-radius: 0.25em;
+    font-size: 1em;
+    color: var(--input-color);
+    transition: border 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.form-control:focus{
+    border: 1px solid var(--input-shadow);
+    outline: none;
+    box-shadow: 1px 1px 10px var(--input-shadow);
+}
+
+.form-check-input{
+    position: absolute;
+    margin-left: -1.25em;
+}
+
+.alert{
+    display: none;
+    padding: 0.75em 1.25em;
+    border: 1px solid transparent;
+    border-radius: 0.25em;
+    margin-bottom: 1em;
+}
+
+.primary-alert{
+    color: var(--primary-color-darker);
+    background-color: var(--primary-color-lighter);
+    border-color: var(--primary-color-lighter);
+}
+
+.secondary-alert{
+    color: var(--secondary-color-darker);
+    background-color: var(--secondary-color-lighter);
+    border-color: var(--secondary-color-lighter);
+}
+
+.success-alert{
+    color: var(--success-color-darker);
+    background-color: var(--success-color-lighter);
+    border-color: var(--success-color-lighter);
+}
+
+.info-alert{
+    color: var(--info-color-darker);
+    background-color: var(--info-color-lighter);
+    border-color: var(--info-color-lighter);
+}
+
+.warning-alert{
+    color: var(--warning-color-darker);
+    background-color: var(--warning-color-lighter);
+    border-color: var(--warning-color-lighter);
+}
+
+.danger-alert{
+    color: var(--danger-color-darker);
+    background-color: var(--danger-color-lighter);
+    border-color: var(--danger-color-lighter);
+}
+
+.light-alert{
+    color: var(--dark-color);
+    background-color: var(--light-color);
+    border-color: var(--light-color);
+}
+
+.dark-alert{
+    color: var(--light-color);
+    background-color: var(--dark-color);
+    border-color: var(--dark-color);
 }
 
 @media (min-width: 768px) {
