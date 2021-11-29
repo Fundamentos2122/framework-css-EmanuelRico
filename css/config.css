@@ -38,4 +38,9 @@ html, body{
     --container-padding: 1em;
     --input-color: #838383;
     --input-shadow: #67b7ec;
+    --size-1: 0.25em;
+    --size-2: 0.5em;
+    --size-3: 1em;
+    --size-4: 1.5em;
+    --size-5: 3em;
 }
